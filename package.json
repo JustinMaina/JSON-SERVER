@@ -1,10 +1,13 @@
 {
+  "homepage": "https://alchemist1111.github.io/PHASE-2-WEEK-2-code-challenge",
   "name": "bankingapp-mock-api",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start" : "node server.js"
+    "start" : "node server.js",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "keywords": [],
   "author": "",
